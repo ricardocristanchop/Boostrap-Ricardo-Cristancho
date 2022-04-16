@@ -11,10 +11,24 @@
 
     <link href="carousel.css" rel="stylesheet">
 
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link hrel="canonical" href="https://getbootstrap.com/docs/5.1/examples/heroes/">
+    <link href="heroes.css" rel="stylesheet">
+
+
+    <link hrel="canonical" href="https://getbootstrap.com/docs/5.1/examples/grid/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet">
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="footers.css" rel="stylesheet">
 
     
   </head>
   <body>
+
+    <main>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
         <div class="container-xl">
           <a class="navbar-brand" href="#">Container XL</a>
@@ -53,7 +67,7 @@
 
 
 
-      <main>
+     
 
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -108,7 +122,7 @@
 
 
 
-        <main>
+        
 
             <section class="py-5 text-center container">
               <div class="row py-lg-5">
@@ -176,54 +190,120 @@
                     </div>
                   </div>
                            
-          </main>
-
-
-
-
-        <main>
           
-          <div class="container px-4 py-5" id="featured-3">
-            <h2 class="pb-2 border-bottom">Columns with icons</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-              <div class="feature col">
-                <div class="feature-icon bg-primary bg-gradient">
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
-                </div>
-                <h2>Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                  Call to action
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-                </a>
-              </div>
-              <div class="feature col">
-                <div class="feature-icon bg-primary bg-gradient">
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
-                </div>
-                <h2>Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                  Call to action
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-                </a>
-              </div>
-              <div class="feature col">
-                <div class="feature-icon bg-primary bg-gradient">
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-                </div>
-                <h2>Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                  Call to action
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-                </a>
-              </div>
-            </div>
-          </div>
 
 
-        </main>
+
+
+
+                  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+                    <div class="row align-items-center g-lg-5 py-5">
+                      <div class="col-lg-7 text-center text-lg-start">
+                        <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
+                        <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+                      </div>
+                      <div class="col-md-10 mx-auto col-lg-5">
+                        <form class="p-4 p-md-5 border rounded-3 bg-light">
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div>
+                          <div class="checkbox mb-3">
+                            <label>
+                              <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                          </div>
+                          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                          <hr class="my-4">
+                          <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <h2 class="mt-4">Five grid tiers</h2>
+                  <p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.</p>
+              
+                  <div class="row mb-3">
+                    <div class="col-4 themed-grid-col">.col-4</div>
+                    <div class="col-4 themed-grid-col">.col-4</div>
+                    <div class="col-4 themed-grid-col">.col-4</div>
+                  </div>
+              
+                  <div class="row mb-3">
+                    <div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+                    <div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+                    <div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+                  </div>
+              
+                  <div class="row mb-3">
+                    <div class="col-md-4 themed-grid-col">.col-md-4</div>
+                    <div class="col-md-4 themed-grid-col">.col-md-4</div>
+                    <div class="col-md-4 themed-grid-col">.col-md-4</div>
+                  </div>
+              
+                  <div class="row mb-3">
+                    <div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+                    <div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+                    <div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+                  </div>
+              
+                  <div class="row mb-3">
+                    <div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+                    <div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+                    <div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+                  </div>
+              
+                  <div class="row mb-3">
+                    <div class="col-xxl-4 themed-grid-col">.col-xxl-4</div>
+                    <div class="col-xxl-4 themed-grid-col">.col-xxl-4</div>
+                    <div class="col-xxl-4 themed-grid-col">.col-xxl-4</div>
+                  </div>
+
+
+
+
+                  <div class="b-example-divider"></div>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="text-muted">&copy; 2021 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+                 
+                  
+
+
+
+
+</main>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
